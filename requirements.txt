@@ -5,7 +5,6 @@ pydantic
 langchain
 langchain-community
 langchain-core
-sentence-transformers
 langchain-text-splitters
 faiss-cpu
 huggingface_hub
