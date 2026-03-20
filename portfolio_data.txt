@@ -1,0 +1,165 @@
+========================
+PERSONAL PROFILE
+========================
+
+Name: Soumil Malik
+
+About:
+Computer Science undergraduate specializing in Generative AI and MLOps, with strong hands-on experience building production-grade AI systems. Skilled in RAG pipelines, LLM orchestration, vector databases, and cloud deployment. Comfortable working across the full AI stack, including backend APIs, ML pipelines, and deployment workflows.
+
+Currently exploring agentic AI systems, multi-model workflows, and scalable AI architectures.
+
+Education:
+B.Tech in Computer Science and Engineering
+Guru Gobind Singh Indraprastha University, Delhi
+CGPA: 8.39/10
+Duration: Aug 2022 – May 2026
+
+
+========================
+EXPERIENCE
+========================
+
+Role: AI/ML Engineer Intern
+Company: RegalRinse
+Duration: Nov 2025 – Jan 2026
+
+Key Contributions:
+- Built a teacher–student knowledge distillation pipeline using Qwen-Image-Edit and Stable Diffusion.
+- Developed a synthetic data generation pipeline using quantized models to solve data scarcity.
+- Reduced inference latency by 10x and VRAM usage by 75%.
+- Enabled real-time deployment on free-tier cloud GPUs.
+- Built a regression model for construction cost estimation.
+
+
+========================
+CORE PROJECTS
+========================
+
+1. Smart Finance AI
+Tech Stack: Python, FastAPI, LangChain, MCP, OpenAI, React
+
+- Designed a financial intelligence platform using MCP microservices.
+- Implemented tools for SIP, EMI, CAGR calculations, and Monte Carlo simulations.
+- Built a FastAPI backend with LangChain orchestration and session memory.
+- Enabled real-time streaming responses using Server-Sent Events (SSE).
+- Applied production patterns like API key isolation and tool caching.
+
+
+2. DocuMind (RAG System)
+Tech Stack: FastAPI, LangChain, FAISS, OpenAI, React
+
+- Built an end-to-end RAG pipeline for PDF-based question answering.
+- Implemented chunking, embeddings, and FAISS vector search.
+- Reduced hallucination using strict context grounding.
+- Deployed backend on Render and frontend on Vercel.
+
+
+3. SentimentFlow (NLP + MLOps)
+Tech Stack: Transformers, PyTorch, PostgreSQL, Streamlit
+
+- Built an automated ETL pipeline ingesting 300–500 news articles daily.
+- Implemented zero-shot sentiment classification for startups.
+- Used Aho-Corasick for efficient entity detection.
+- Improved model throughput by 3x using batching.
+- Built a Streamlit dashboard for monitoring.
+
+
+4. Vehicle Insurance MLOps Pipeline
+Tech Stack: Python, Scikit-learn, MongoDB, AWS, Docker
+
+- Built an end-to-end ML pipeline for insurance prediction.
+- Trained Random Forest model with hyperparameter tuning.
+- Achieved 88% accuracy on structured dataset.
+- Implemented CI/CD and cloud deployment.
+
+
+========================
+ADDITIONAL PROJECTS
+========================
+
+Sentiment Analysis with MLOps:
+- Built a production-ready NLP pipeline with DVC and MLflow.
+- Implemented experiment tracking and model versioning.
+- Used transformer-based models (BERT family).
+- Deployed using FastAPI and Docker.
+- Designed scalable ML pipelines and reproducible workflows.
+
+
+Deep Learning + MLOps Journey (40 Days):
+- Built neural networks, CNNs, RNNs, Transformers from scratch.
+- Implemented models on MNIST, CIFAR-10, IMDB datasets.
+- Achieved up to 94% accuracy using BERT.
+- Learned transfer learning, attention mechanisms, and deep architectures.
+- Integrated MLOps tools like MLflow, DVC, Docker, CI/CD.
+
+
+Flask Monitoring with Prometheus & Grafana:
+- Built a monitoring pipeline using Kubernetes (Minikube).
+- Integrated Prometheus for metrics collection.
+- Visualized system metrics in Grafana dashboards.
+- Implemented real-time API monitoring.
+
+
+Multiple Disease Prediction System:
+- Built a Streamlit app predicting Diabetes, Heart Disease, Parkinson’s.
+- Used ML models like SVM and Logistic Regression.
+- Provided real-time predictions using trained models.
+
+
+Car Valuation System:
+- Built a FastAPI backend for car price prediction.
+- Used Random Forest Regressor.
+- Deployed on Render with Docker.
+
+
+SMS Spam Classification:
+- Built ML model to classify SMS as spam or ham.
+- Applied preprocessing, feature extraction, and classification.
+
+
+Mall Customer Segmentation:
+- Applied K-Means clustering for customer segmentation.
+- Analyzed patterns using income, age, and spending data.
+
+
+========================
+TECHNICAL SKILLS
+========================
+
+GenAI & LLM:
+LangChain, LangGraph, LlamaIndex, Hugging Face Transformers, OpenAI API, RAG, Prompt Engineering, MCP
+
+Agents & Automation:
+CrewAI, n8n, Make.com
+
+Machine Learning & Deep Learning:
+PyTorch, TensorFlow, Scikit-learn, Transfer Learning, Knowledge Distillation
+
+Data & Libraries:
+NumPy, Pandas, Matplotlib
+
+Vector Databases:
+FAISS, Pinecone, Weaviate, MongoDB Atlas Vector Search
+
+MLOps & Tools:
+Docker, MLflow, DVC, GitHub Actions, AWS (S3, EC2, ECR), FastAPI, Flask, Git
+
+Languages:
+Python, C++, Java, SQL
+
+Databases:
+PostgreSQL, MongoDB
+
+
+========================
+PERSONA INSTRUCTION (IMPORTANT FOR RAG)
+========================
+
+You are Soumil's AI assistant.
+
+Rules:
+- Only answer questions about Soumil's skills, projects, experience, or background.
+- Do not answer general knowledge questions.
+- If information is not present, say: "I don't have that information."
+- Keep answers concise, professional, and relevant.
