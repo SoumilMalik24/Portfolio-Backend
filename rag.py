@@ -3,7 +3,7 @@ import os
 from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
 from huggingface_hub import InferenceClient
 
 from utils import get_file_hash, load_metadata, save_metadata
@@ -15,9 +15,10 @@ DATA_FILE = "portfolio_data.txt"
 class RAGEngine:
     def __init__(self):
         # Embeddings (Hugging Face Inference API - Free & 0 MB RAM)
-        self.embeddings = HuggingFaceInferenceAPIEmbeddings(
-            api_key=os.getenv("HUGGINGFACE_API_TOKEN"),
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
+        self.embeddings = HuggingFaceEndpointEmbeddings(
+            model="sentence-transformers/all-MiniLM-L6-v2",
+            task="feature-extraction",
+            huggingfacehub_api_token=os.getenv("HUGGINGFACE_API_TOKEN")
         )
 
         # Initialize vector DB
