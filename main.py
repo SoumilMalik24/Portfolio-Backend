@@ -42,7 +42,7 @@ def root():
 
 
 @app.post("/api/chat")
-async def chat(req: ChatRequest):
+def chat(req: ChatRequest):
     try:
         reply = rag.query(req.message)
         return {"reply": reply}
@@ -51,7 +51,7 @@ async def chat(req: ChatRequest):
 
 
 @app.post("/api/contact")
-async def contact(req: ContactRequest):
+def contact(req: ContactRequest):
     try:
         html_content = f"""
         <h2>New Portfolio Contact</h2>
