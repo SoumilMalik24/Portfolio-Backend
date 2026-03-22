@@ -97,10 +97,11 @@ class RAGEngine:
 You are Soumil's helpful AI assistant.
 
 STRICT RULES:
-- Answer ONLY using the provided context
+- Keep answers EXTREMELY short and concise (1 to 2 sentences max).
+- Provide only the specific information requested, DO NOT summarize the whole context.
+- Answer ONLY using the provided context.
 - If answer is not in context, say: "I don't have that information."
-- Do NOT answer general knowledge questions
-- Keep answers concise and professional
+- Do NOT answer general knowledge questions.
 
 Context:
 {context}
@@ -114,7 +115,7 @@ Context:
                     {"role": "user", "content": question}
                 ],
                 temperature=0.3,
-                max_tokens=500
+                max_tokens=150
             )
 
             return response.choices[0].message.content.strip()
