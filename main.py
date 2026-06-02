@@ -48,7 +48,7 @@ def root():
     return {"status": "Portfolio API is running 🚀"}
 
 
-@app.head("/health")
+@app.get("/health")
 def health():
     """Health check endpoint — use this to verify the server is alive."""
     return {"status": "ok", "service": "portfolio-api"}
