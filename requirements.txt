@@ -1,13 +1,11 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
-pydantic
+pydantic[email]
+requests
 langchain
 langchain-community
 langchain-core
 langchain-text-splitters
+langchain-huggingface
 faiss-cpu
-huggingface_hub
-langchain_huggingface
-jinja2
-email-validator

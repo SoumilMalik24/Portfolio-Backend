@@ -3,17 +3,27 @@ PERSONAL PROFILE
 ========================
 
 Name: Soumil Malik
+Phone: +91-9650799486
+Email: soumil4malik@gmail.com
+LinkedIn: linkedin.com/in/soumilmalik24
+GitHub: github.com/SoumilMalik24
+Location: Delhi, India
+Status: Open to Work
 
 About:
-Computer Science undergraduate specializing in Generative AI and MLOps, with strong hands-on experience building production-grade AI systems. Skilled in RAG pipelines, LLM orchestration, vector databases, and cloud deployment. Comfortable working across the full AI stack, including backend APIs, ML pipelines, and deployment workflows.
-
-Currently exploring agentic AI systems, multi-model workflows, and scalable AI architectures.
+CS undergraduate specializing in Agentic AI and LLMOps — building autonomous multi-agent systems,
+distributed AI backends, and production RAG pipelines. Proficient across the full GenAI stack:
+LangGraph, CrewAI, MCP, LangSmith, vector databases, and async task queues.
+Focused on AI that reasons, acts, and delivers structured outputs beyond simple chat.
 
 Education:
 B.Tech in Computer Science and Engineering
 Guru Gobind Singh Indraprastha University, Delhi
-CGPA: 8.39/10
+CGPA: 8.62/10
 Duration: Aug 2022 – May 2026
+
+Class XII (CBSE), Manav Sthali School Delhi — 90%
+Class X (CBSE), Manav Sthali School Delhi — 85%
 
 
 ========================
@@ -23,143 +33,125 @@ EXPERIENCE
 Role: AI/ML Engineer Intern
 Company: RegalRinse
 Duration: Nov 2025 – Jan 2026
+Type: Remote Internship
 
 Key Contributions:
-- Built a teacher–student knowledge distillation pipeline using Qwen-Image-Edit and Stable Diffusion.
-- Developed a synthetic data generation pipeline using quantized models to solve data scarcity.
-- Reduced inference latency by 10x and VRAM usage by 75%.
-- Enabled real-time deployment on free-tier cloud GPUs.
-- Built a regression model for construction cost estimation.
+- Engineered a teacher–student distillation pipeline transferring SOTA Qwen-Image-Edit reasoning
+  into a Stable Diffusion 1.5 + LoRA adapter for text-controlled wall restoration and recoloring.
+- Built a synthetic data factory using a 4-bit quantized teacher model; achieved 10x lower latency
+  and 75% VRAM reduction (16GB to 4GB) enabling free-tier GPU deployment.
+- Developed a regression-based pricing model estimating house construction costs across varied
+  structural and material configurations.
 
 
 ========================
 CORE PROJECTS
 ========================
 
-1. Smart Finance AI
-Tech Stack: Python, FastAPI, LangChain, MCP, OpenAI, React
+1. ResearchSynth
+Live: https://ai-research-synthesizer.vercel.app/
+GitHub: https://github.com/SoumilMalik24/AI-Research-Synthesizer
+Tech Stack: LangGraph, LangSmith, FastAPI, Celery, Redis, Pinecone
+Date: Apr 2026
 
-- Designed a financial intelligence platform using MCP microservices.
-- Implemented tools for SIP, EMI, CAGR calculations, and Monte Carlo simulations.
-- Built a FastAPI backend with LangChain orchestration and session memory.
-- Enabled real-time streaming responses using Server-Sent Events (SSE).
-- Applied production patterns like API key isolation and tool caching.
-
-
-2. DocuMind (RAG System)
-Tech Stack: FastAPI, LangChain, FAISS, OpenAI, React
-
-- Built an end-to-end RAG pipeline for PDF-based question answering.
-- Implemented chunking, embeddings, and FAISS vector search.
-- Reduced hallucination using strict context grounding.
-- Deployed backend on Render and frontend on Vercel.
+- Built an autonomous multi-agent research platform using LangGraph with Search, Translation,
+  and Synthesis agents to generate structured markdown research reports with citations.
+- Engineered an async distributed backend using FastAPI, Celery, Redis, async SQLAlchemy,
+  and PostgreSQL for scalable job execution and persistent history tracking.
+- Integrated LangSmith observability for tracing token usage, cost, latency, and agent reasoning;
+  implemented Google OAuth + JWT authentication and cross-lingual research support.
 
 
-3. SentimentFlow (NLP + MLOps)
-Tech Stack: Transformers, PyTorch, PostgreSQL, Streamlit
+2. Smart Finance AI
+Live: https://smart-finance-ai-nine.vercel.app/
+GitHub: https://github.com/SoumilMalik24/Smart-Finance-AI
+Tech Stack: FastAPI, LangChain, MCP, OpenAI, React, SSE
+Date: Feb 2026
 
-- Built an automated ETL pipeline ingesting 300–500 news articles daily.
-- Implemented zero-shot sentiment classification for startups.
-- Used Aho-Corasick for efficient entity detection.
-- Improved model throughput by 3x using batching.
-- Built a Streamlit dashboard for monitoring.
-
-
-4. Vehicle Insurance MLOps Pipeline
-Tech Stack: Python, Scikit-learn, MongoDB, AWS, Docker
-
-- Built an end-to-end ML pipeline for insurance prediction.
-- Trained Random Forest model with hyperparameter tuning.
-- Achieved 88% accuracy on structured dataset.
-- Implemented CI/CD and cloud deployment.
+- Multi-Server MCP platform with isolated microservices for financial math (SIP/EMI/CAGR/Monte Carlo),
+  investment simulation, expense analysis, and inline Base64 chart generation.
+- FastAPI + LangChain orchestrator with session memory, intelligent tool routing, and real-time
+  SSE token streaming for a ChatGPT-style UX.
+- Applied production-grade patterns: API key isolation, token trimming, tool caching, structured
+  SSE error events, and multi-session support without a persistent database.
 
 
-========================
-ADDITIONAL PROJECTS
-========================
+3. CodeLens
+Live: https://code-lens-ai-code-reviewer.vercel.app/
+GitHub: https://github.com/SoumilMalik24/CodeLens-AI-Code-Reviewer
+Tech Stack: CrewAI, LangSmith, FastAPI, Celery, Redis, GitHub API, Docker
+Date: Mar 2026
 
-Sentiment Analysis with MLOps:
-- Built a production-ready NLP pipeline with DVC and MLflow.
-- Implemented experiment tracking and model versioning.
-- Used transformer-based models (BERT family).
-- Deployed using FastAPI and Docker.
-- Designed scalable ML pipelines and reproducible workflows.
-
-
-Deep Learning + MLOps Journey (40 Days):
-- Built neural networks, CNNs, RNNs, Transformers from scratch.
-- Implemented models on MNIST, CIFAR-10, IMDB datasets.
-- Achieved up to 94% accuracy using BERT.
-- Learned transfer learning, attention mechanisms, and deep architectures.
-- Integrated MLOps tools like MLflow, DVC, Docker, CI/CD.
+- Developed a 6-agent CrewAI code review system with specialized agents for bug detection,
+  security analysis, performance optimization, best practices, automated fixing, and architectural review.
+- Integrated GitHub OAuth and GitHub API workflows to fork repositories, push corrected files,
+  and autonomously create pull requests; used LangSmith for full tracing.
+- Built a Dockerized distributed architecture using FastAPI, Celery, Redis, and React/Nginx with
+  asynchronous status polling. Snippet reviews complete in under 60 seconds, full repos in 3–10 minutes.
 
 
-Flask Monitoring with Prometheus & Grafana:
-- Built a monitoring pipeline using Kubernetes (Minikube).
-- Integrated Prometheus for metrics collection.
-- Visualized system metrics in Grafana dashboards.
-- Implemented real-time API monitoring.
+4. Vehicle Insurance Prediction (MLOps Pipeline)
+GitHub: https://github.com/SoumilMalik24/Vehicle-Insurance-MLOps-Project
+Tech Stack: Python, MLOps, MongoDB, AWS, Docker, CI/CD, GitHub Actions
+Date: Sep 2025
 
-
-Multiple Disease Prediction System:
-- Built a Streamlit app predicting Diabetes, Heart Disease, Parkinson’s.
-- Used ML models like SVM and Logistic Regression.
-- Provided real-time predictions using trained models.
-
-
-Car Valuation System:
-- Built a FastAPI backend for car price prediction.
-- Used Random Forest Regressor.
-- Deployed on Render with Docker.
-
-
-SMS Spam Classification:
-- Built ML model to classify SMS as spam or ham.
-- Applied preprocessing, feature extraction, and classification.
-
-
-Mall Customer Segmentation:
-- Applied K-Means clustering for customer segmentation.
-- Analyzed patterns using income, age, and spending data.
+- Built a production-ready MLOps pipeline processing 50k+ vehicle records, covering ingestion,
+  validation, transformation, model training, and deployment.
+- Integrated MongoDB Atlas, reducing query latency by 35% and enabling scalable dataset versioning.
+- Used AWS S3 for model storage and tracking, maintaining 4+ trained versions.
+- Implemented CI/CD with GitHub Actions and Docker, cutting deployment time by 80% via automated
+  AWS EC2 + ECR workflows.
 
 
 ========================
 TECHNICAL SKILLS
 ========================
 
-GenAI & LLM:
-LangChain, LangGraph, LlamaIndex, Hugging Face Transformers, OpenAI API, RAG, Prompt Engineering, MCP
+Agentic AI:
+LangGraph, CrewAI, LangChain, MCP, RAG, Hugging Face Transformers, OpenAI API
 
-Agents & Automation:
-CrewAI, n8n, Make.com
+LLMOps & Automation:
+LangSmith, Prompt Engineering, Token Optimization, Cost Tracking, n8n, Make.com
+
+Backend & Infrastructure:
+FastAPI, Flask, Celery, Redis, Docker, GitHub Actions, AWS (S3, EC2, ECR)
 
 Machine Learning & Deep Learning:
-PyTorch, TensorFlow, Scikit-learn, Transfer Learning, Knowledge Distillation
+PyTorch, TensorFlow, Scikit-learn, Transfer Learning, Knowledge Distillation, MLflow
 
-Data & Libraries:
-NumPy, Pandas, Matplotlib
+Languages & Databases & Vector Databases:
+Python, SQL | PostgreSQL, MongoDB | Weaviate, Pinecone, FAISS
 
-Vector Databases:
-FAISS, Pinecone, Weaviate, MongoDB Atlas Vector Search
 
-MLOps & Tools:
-Docker, MLflow, DVC, GitHub Actions, AWS (S3, EC2, ECR), FastAPI, Flask, Git
+========================
+CERTIFICATIONS
+========================
 
-Languages:
-Python, C++, Java, SQL
+- Udemy: Full Stack Generative and Agentic AI with Python (Hitesh Choudhary & Piyush Garg) — Apr 2026
+- CampusX: Crew AI (Nitish Singh) — Feb 2026
+- IBM: Machine Learning with Python — Dec 2025
 
-Databases:
-PostgreSQL, MongoDB
+
+========================
+PUBLICATIONS
+========================
+
+SentimentFlow: A Three-Tier Automated Pipeline for Entity-Specific News Sentiment Analysis of
+Startups Using Zero-Shot Natural Language Inference
+Status: Accepted for Publication
+Published at: PTEMS 2026 (Springer Nature)
 
 
 ========================
 PERSONA INSTRUCTION (IMPORTANT FOR RAG)
 ========================
 
-You are Soumil's AI assistant.
+You are Soumil's AI assistant embedded in his portfolio website.
 
 Rules:
-- Only answer questions about Soumil's skills, projects, experience, or background.
-- Do not answer general knowledge questions.
-- If information is not present, say: "I don't have that information."
+- Only answer questions about Soumil's skills, projects, experience, education, or background.
+- Do not answer general knowledge questions unrelated to Soumil.
+- If information is not present in the context, say: "I don't have that information."
 - Keep answers concise, professional, and relevant.
+- You may help visitors understand Soumil's work and how to contact him.
+- His contact email is soumil4malik@gmail.com and phone is +91-9650799486.
