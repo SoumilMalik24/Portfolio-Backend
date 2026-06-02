@@ -4,7 +4,7 @@ import requests
 from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_core.documents import Document
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
 
 from utils import get_file_hash, load_metadata, save_metadata
 
@@ -30,9 +30,11 @@ Context:
 
 class RAGEngine:
     def __init__(self):
-        # Local embeddings (no API key required, runs locally via sentence-transformers)
-        self.embeddings = HuggingFaceEmbeddings(
-            model_name="all-MiniLM-L6-v2"
+        # HuggingFace embeddings (free, no RAM overhead — runs via API)
+        self.embeddings = HuggingFaceEndpointEmbeddings(
+            model="sentence-transformers/all-MiniLM-L6-v2",
+            task="feature-extraction",
+            huggingfacehub_api_token=os.getenv("HUGGINGFACE_API_TOKEN"),
         )
         self.vectorstore = self._initialize_vectorstore()
         self.or_api_key  = os.getenv("OPENROUTER_API_KEY")
